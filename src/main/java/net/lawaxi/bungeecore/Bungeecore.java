@@ -138,7 +138,7 @@ public final class Bungeecore extends Plugin implements Listener {
             }
         }
 
-        //4.好友上线提示
+        //4.好友下线提示
         for(String a: FriendConfig.getPlayerFriends(e.getPlayer().getName()))
         {
             ProxiedPlayer player = PlayerUtils.searchPlayer(a);
@@ -151,23 +151,15 @@ public final class Bungeecore extends Plugin implements Listener {
     public void onChangeServer(ServerConnectedEvent e){
 
         ServerInfo a = e.getServer().getInfo();
-
-        Message.sendLine(e.getPlayer());
-        e.getPlayer().sendMessage(lang.getPlayerString(e.getPlayer().getName(),a.getName()));
-        Message.sendLine(e.getPlayer());
-
+        if(a.getName().equals("lobby"))
+            return;
 
         if(PartyUtils.playersParty.containsKey(e.getPlayer()))
         {
             if(PartyUtils.playersParty.get(e.getPlayer()).leader.equals(e.getPlayer())) {
                 for (ProxiedPlayer player : PartyUtils.playersParty.get(e.getPlayer()).players) {
                     if (!player.equals(e.getPlayer())) {
-
                         player.connect(a);
-
-                        Message.sendLine(player);
-                        player.sendMessage(lang.getPlayerString(player.getName(),a.getName()));
-                        Message.sendLine(player);
                     }
                 }
             }

@@ -6,7 +6,7 @@
 
     <groupId>net.lawaxi</groupId>
     <artifactId>bungeecore</artifactId>
-    <version>1.2.1-langSupported</version>
+    <version>1.2.2-langSupported</version>
     <packaging>jar</packaging>
 
     <name>LawaxiBungeeCore</name>
