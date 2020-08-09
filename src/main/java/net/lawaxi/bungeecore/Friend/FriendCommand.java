@@ -146,7 +146,7 @@ public class FriendCommand extends Command {
         ProxiedPlayer player = PlayerUtils.searchPlayer(to);
         if(player==null)
         {
-            from.sendMessage(Bungeecore.lang.getPlayerString(from.getName(), "BungeeCore.friend.request.failed4").replace("%player%",to));
+            from.sendMessage(Bungeecore.lang.getPlayerString(from.getName(), "BungeeCore.friend.common.notOnline").replace("%player%",to));
             return;
         }
 
