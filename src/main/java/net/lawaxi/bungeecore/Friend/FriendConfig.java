@@ -15,12 +15,16 @@ public class FriendConfig {
     public static Configuration config;
     public static File file;
 
+    public static Configuration prohibits;
+    public static File prohibits_file;
+
     public static void saveConfig(){
         try {
             ConfigurationProvider.getProvider(YamlConfiguration.class).save(config, file);
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
 
     public static void reloadConfig() {
@@ -30,6 +34,23 @@ public class FriendConfig {
             e.printStackTrace();
         }
     }
+    public static void savePConfig(){
+        try {
+            ConfigurationProvider.getProvider(YamlConfiguration.class).save(prohibits, prohibits_file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public static void reloadPConfig() {
+        try {
+            prohibits = ConfigurationProvider.getProvider(YamlConfiguration.class).load(prohibits_file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     public static ArrayList<String> getPlayerFriends(String player){
 
@@ -73,6 +94,21 @@ public class FriendConfig {
         config.set(b,temp1.clone());
 
         saveConfig();
+    }
+
+    public static boolean switchProhibt(ProxiedPlayer player){
+        if(prohibits.getBoolean(player.getName().toLowerCase(),false)){
+            prohibits.set(player.getName().toLowerCase(),false);
+            savePConfig();
+            return false;
+        }
+        prohibits.set(player.getName().toLowerCase(),true);
+        saveConfig();
+        return true;
+    }
+
+    public static boolean prohibits(ProxiedPlayer player){
+        return prohibits.getBoolean(player.getName().toLowerCase(),false);
     }
 
 }

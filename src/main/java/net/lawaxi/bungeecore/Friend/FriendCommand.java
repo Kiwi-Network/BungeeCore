@@ -7,8 +7,6 @@ import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Command;
 
-import java.util.ArrayList;
-
 public class FriendCommand extends Command {
 
     private static Bungeecore instance;
@@ -123,6 +121,9 @@ public class FriendCommand extends Command {
 
                 break;
             }
+            case "prohibit":{
+                ps.sendMessage(Bungeecore.lang.getPlayerString(ps.getName(),"BungeeCore.friend.prohibit").replace("%b%",String.valueOf(FriendConfig.switchProhibt(ps))));
+            }
         }
         Message.sendLine2(ps);
     }
@@ -140,10 +141,17 @@ public class FriendCommand extends Command {
             return;
         }
 
+
+
         ProxiedPlayer player = PlayerUtils.searchPlayer(to);
         if(player==null)
         {
             from.sendMessage(Bungeecore.lang.getPlayerString(from.getName(), "BungeeCore.friend.request.failed4").replace("%player%",to));
+            return;
+        }
+
+        if(FriendConfig.prohibits(player)){
+            from.sendMessage(Bungeecore.lang.getPlayerString(from.getName(),"BungeeCore.friend.request.failed9"));
             return;
         }
 

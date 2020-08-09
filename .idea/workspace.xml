@@ -3,16 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="73c0a774-202d-4261-a458-b5bcb59b0ade" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BungeeCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BungeeCore.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Bungeecore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Bungeecore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_chinese.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_chinese.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_chineset.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_chineset.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/messages_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_english.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bungeecore-1.2.1-langSupported.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/bungeecore-1.2.1-langSupported.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/messages_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/lawaxi/bungeecore/Bungeecore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/lawaxi/bungeecore/Bungeecore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-bungeecore-1.2.1-langSupported.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-bungeecore-1.2.1-langSupported.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/[delay]bungeecore-1.2.2-langSupported.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Bungeecore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="165" column="9" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
+            <state relative-caret-position="162">
+              <caret line="79" column="27" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,13 +55,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/messages_chinese.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="52" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -70,8 +66,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/messages_english.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+            <state relative-caret-position="320">
+              <caret line="52" column="52" lean-forward="true" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-config/1.12-SNAPSHOT/bungeecord-config-1.12-20180712.114556-97-sources.jar!/net/md_5/bungee/config/Configuration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="317" column="19" selection-start-line="317" selection-start-column="19" selection-end-line="317" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -79,17 +84,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/messages_chineset.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="260">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Party/Color.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="255">
+              <caret line="110" column="74" lean-forward="true" selection-start-line="110" selection-start-column="74" selection-end-line="110" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,20 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Party/PartyInvite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="201">
+              <caret line="154" column="19" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,7 +167,6 @@
         <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Chat/ChatMode.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/Config.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Chat/ChatUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Chat/AChatCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Chat/PChatCommand.java" />
@@ -182,14 +177,15 @@
         <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Player/PlayerUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Player/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Chat/ChatCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Party/PartyInvite.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Party/PartyCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Party/Color.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Bungeecore.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_english.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_chinese.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_chineset.yml" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_english.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Bungeecore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendCommand.java" />
         <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
@@ -200,6 +196,7 @@
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -322,7 +319,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596917647664" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Languages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../naptie/Bedwars" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -399,12 +396,12 @@
       <workItem from="1596876281794" duration="1418000" />
       <workItem from="1596878157634" duration="4814000" />
       <workItem from="1596903278762" duration="14309000" />
-      <workItem from="1596957468893" duration="775000" />
+      <workItem from="1596957468893" duration="2820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58301000" />
+    <option name="totallyTimeSpent" value="60346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
@@ -419,7 +416,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22695035" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2251773" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,7 +424,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5319149" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.28546098" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -492,16 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Commands/Lobby.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" column="95" selection-start-line="16" selection-start-column="95" selection-end-line="16" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_chinese.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="136" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Party/PartyCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2720">
@@ -640,16 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Party/PartyInvite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -660,10 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Commands/Lobby.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="280">
+          <caret line="16" column="95" selection-start-line="16" selection-start-column="95" selection-end-line="16" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -687,24 +657,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_chineset.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Bungeecore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="162">
+          <caret line="79" column="27" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages_english.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+        <state relative-caret-position="320">
+          <caret line="52" column="52" lean-forward="true" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Bungeecore.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_chinese.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="165" column="9" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="52" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="110" column="74" lean-forward="true" selection-start-line="110" selection-start-column="74" selection-end-line="110" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_chineset.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-config/1.12-SNAPSHOT/bungeecord-config-1.12-20180712.114556-97-sources.jar!/net/md_5/bungee/config/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="317" column="19" selection-start-line="317" selection-start-column="19" selection-end-line="317" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lawaxi/bungeecore/Friend/FriendCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="154" column="19" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -50,6 +50,7 @@ BungeeCore:
       line7: "§e/f remove <玩家> §7- §b将一位玩家从好友列表中删除"
     login: "§a好友上线 §2>> §a%friend%"
     quit: "§c好友下线 §4>> §c%friend%"
+    prohibit: "§6禁止添加好友已设置为: %s%"
   party:
     invite:
       quit1: "§c玩家 §7%player%§c 已退出, 发送给您的组队邀请已自动取消."

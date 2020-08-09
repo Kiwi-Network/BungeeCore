@@ -20,11 +20,8 @@ import net.md_5.bungee.api.event.ServerConnectedEvent;
 import net.md_5.bungee.api.plugin.Listener;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.event.EventHandler;
-
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
 
 public final class Bungeecore extends Plugin implements Listener {
 
@@ -46,6 +43,7 @@ public final class Bungeecore extends Plugin implements Listener {
         this.getProxy().getPluginManager().registerListener(this, this);
 
         FriendConfig.file = new File(getDataFolder(),"friends.yml");
+        FriendConfig.prohibits_file = new File(getDataFolder(),"prohibits.yml");
         if(!getDataFolder().exists())
             getDataFolder().mkdir();
 
@@ -56,7 +54,13 @@ public final class Bungeecore extends Plugin implements Listener {
             }
             catch (IOException e){}
         }
-        //FriendConfig.reloadConfig();
+        if(!FriendConfig.prohibits_file.exists())
+        {
+            try{
+                FriendConfig.prohibits_file.createNewFile();
+            }
+            catch (IOException e){}
+        }
     }
 
     @Override
@@ -74,6 +78,7 @@ public final class Bungeecore extends Plugin implements Listener {
 
         //2.重载好友数据配置
         FriendConfig.reloadConfig();
+        FriendConfig.reloadPConfig();
 
         //3.好友上线提示
         for(String a: FriendConfig.getPlayerFriends(e.getPlayer().getName()))

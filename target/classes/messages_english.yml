@@ -50,6 +50,7 @@ BungeeCore:
       line7: "§e/f remove <Player> §7- §bDelete a player from your friends list"
     login: "§aConnected §2>> §a%friend%"
     quit: "§cDisconnected §4>> §c%friend%"
+    prohibit: "§6Prohibiting option was set to: %s%"
   party:
     invite:
       quit1: "§cPlayer §7%player%§c logged out the server, party invite cancelled automatically."
